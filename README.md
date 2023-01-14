@@ -21,7 +21,26 @@ Attenuation - Obstruction affect signal
 * mountains
 * etc
 
-## lambha - wavelength (meters)
-lambha - length of each frequency 
+## λ - wavelength (meters)
+λ - length of each frequency
+![image](https://user-images.githubusercontent.com/83261924/212385649-a43ad4ea-aaea-4660-970f-50a14b0744e2.png)
+
+> inverse relationship between wavelength and frequency
+```High frequency = low wavelength```
+
+## RF Characteristics
+* Attenuation
+* Amplitude - height of λ --> higher mean more power
+* Phase: 
+In-Phase = similar frequency --> additive
+Out-Phase = different frequency --> reduces
+![image](https://user-images.githubusercontent.com/83261924/212386662-c8c00419-eea6-4ba1-8578-478b385e1cdb.png)
+
+## RF Behavior
+* Propagation = how signal travel accross medium
+* Absorption = signal loss as pass through objects
+ 
+
+
 
 
