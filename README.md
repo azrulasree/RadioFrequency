@@ -11,7 +11,8 @@ Number of cycle happen per second = Hertz(Hz)
 2.4Ghz
 5Ghz
 
-XmTR - Transmitter --> gives out radio frequency
+XmTR - Transmitter --> gives out radio f
+RCVR - Receriver --> receive radio f
 186K miles per second(mps)
 300M mps --> speed of light
 
@@ -29,16 +30,28 @@ Attenuation - Obstruction affect signal
 ```High frequency = low wavelength```
 
 ## RF Characteristics
-* Attenuation
-* Amplitude - height of λ --> higher mean more power
+* Attenuation - signal become slow as travel.
+* Amplitude - height of signal  --> higher mean more power
 * Phase: 
-In-Phase = similar frequency --> additive
-Out-Phase = different frequency --> reduces
+In-Phase = similar frequency --> additive signal strength
+Out-Phase = different frequency --> reduces signal strength
 ![image](https://user-images.githubusercontent.com/83261924/212386662-c8c00419-eea6-4ba1-8578-478b385e1cdb.png)
 
 ## RF Behavior
-* Propagation = how signal travel accross medium
+Propagation = how signal travel accross medium
+2.4GHz coverage better than 5GHz (lower f better )
 * Absorption = signal loss as pass through objects
+* Reflection = signal bounch off object that are larger than its λ --> create multipath = phase 
+![image](https://user-images.githubusercontent.com/83261924/212502381-667dc28a-4d4e-4ba8-8284-8a95a7a3c951.png)
+* Scattering = signal bounch off object that are smaller than its λ= like disco ball
+* Refraction = direction changes when go to difference density.
+![image](https://user-images.githubusercontent.com/83261924/212502451-244adead-8221-432f-aa3a-b2063cde085c.png)
+* Diffraction = how data travel around the object
+![image](https://user-images.githubusercontent.com/83261924/212502467-cfdb7fd7-015a-4a76-89c5-7c586bc42b28.png)
+
+
+
+
  
 
 
