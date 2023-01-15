@@ -39,15 +39,59 @@ Out-Phase = different frequency --> reduces signal strength
 
 ## RF Behavior
 Propagation = how signal travel accross medium
-2.4GHz coverage better than 5GHz (lower f better )
+
 * Absorption = signal loss as pass through objects
-* Reflection = signal bounch off object that are larger than its λ --> create multipath = phase 
+* Reflection = signal bounch off object that are larger than its λ --> create multipath = phase
 ![image](https://user-images.githubusercontent.com/83261924/212502381-667dc28a-4d4e-4ba8-8284-8a95a7a3c951.png)
 * Scattering = signal bounch off object that are smaller than its λ= like disco ball
 * Refraction = direction changes when go to difference density.
 ![image](https://user-images.githubusercontent.com/83261924/212502451-244adead-8221-432f-aa3a-b2063cde085c.png)
 * Diffraction = how data travel around the object
 ![image](https://user-images.githubusercontent.com/83261924/212502467-cfdb7fd7-015a-4a76-89c5-7c586bc42b28.png)
+* 2.4GHz coverage better than 5GHz (lower f better )
+* Free Space Path Loss(FSPL)
+Free Range Comms. 
+> signal double in distance = 75% loss strength
+
+## Multipath
+* Delay Spread
+cause by reflection. delay in nanosec = cause out-phase.
+![image](https://user-images.githubusercontent.com/83261924/212502919-e67e7649-d877-4b4d-afe4-a2b5cb91244d.png)
+ signal 180 --> nulling
+ 
+ Data corruption
+ signal arrive -> RCVR -> modulation technique -> convert signal to bit
+ out-phase signal come --> convert different bit -> cause ISI 
+ > Inter-Symbol Interference (ISI) cause data corruption
+ CRC is required.(file transfer, ect)
+ CRC neglected in VIOP
+ 
+ ### how to deal with multipath
+ antenna diversity (multiple antenna) --> receive only good signal. intelligence choice of signal.
+Reduce power. if signal use 50w. dont use 100w.
+MIMO - Multiple Input Multiple Output
+Maximum Ratio Combining (MRC) = combine signal strength for better signal.
+
+## RF Gain and VSWR
+active --> amplifier (AmP)
+passive --> antenna. focusing signal on 1 side of antenna
+
+> Spectrum Analyzer = wireless site surver, troubleshoot
+
+### Voltage Standing Wave Ration (VSWR)
+cause back pressure
+![image](https://user-images.githubusercontent.com/83261924/212503216-8254414a-131e-4286-803e-b57d76d951c5.png)
+![image](https://user-images.githubusercontent.com/83261924/212503226-63ed0ba4-a88f-41e1-8229-7bb658a461e7.png)
+impedence --> Ohm, Ω
+> Impedance matching. all material have same impedance.50Ω
+
+Ratio between: highest : lowest
+![image](https://user-images.githubusercontent.com/83261924/212503294-0cd8c3f2-3123-4820-878c-ee022bfe9019.png)
+Better impedence to have best VSWR
+ 
+### Return Loss
+return loss = difference between power sent and replected back
+> Higher % return loss. the better
 
 
 
