@@ -1,5 +1,6 @@
 # RadioFrequency (RF)
 Radio frequency Signal - Oscillation
+
 ![image](https://user-images.githubusercontent.com/83261924/212222648-fd40ec7d-a83d-441c-be3c-36fa75c2b23f.png)
 
 Frequency (f) -Hertz
@@ -26,6 +27,7 @@ Attenuation - Obstruction affect signal
 
 ## λ - wavelength (meters)
 λ - length of each frequency
+
 ![image](https://user-images.githubusercontent.com/83261924/212385649-a43ad4ea-aaea-4660-970f-50a14b0744e2.png)
 
 > inverse relationship between wavelength and frequency
@@ -49,8 +51,10 @@ Propagation = how signal travel accross medium
 ![image](https://user-images.githubusercontent.com/83261924/212502381-667dc28a-4d4e-4ba8-8284-8a95a7a3c951.png)
 * Scattering = signal bounch off object that are smaller than its λ= like disco ball
 * Refraction = direction changes when go to difference density.
+
 ![image](https://user-images.githubusercontent.com/83261924/212502451-244adead-8221-432f-aa3a-b2063cde085c.png)
 * Diffraction = how data travel around the object
+
 ![image](https://user-images.githubusercontent.com/83261924/212502467-cfdb7fd7-015a-4a76-89c5-7c586bc42b28.png)
 * 2.4GHz coverage better than 5GHz (lower f better )
 * Free Space Path Loss(FSPL)
@@ -86,6 +90,7 @@ passive --> antenna. focusing signal on 1 side of antenna
 
 ### Voltage Standing Wave Ration (VSWR)
 cause back pressure
+
 ![image](https://user-images.githubusercontent.com/83261924/212503216-8254414a-131e-4286-803e-b57d76d951c5.png)
 ![image](https://user-images.githubusercontent.com/83261924/212503226-63ed0ba4-a88f-41e1-8229-7bb658a461e7.png)
 
@@ -93,6 +98,7 @@ impedence --> Ohm, Ω
 > Impedance matching. all material have same impedance.50Ω
 
 Ratio between: highest : lowest
+
 ![image](https://user-images.githubusercontent.com/83261924/212503294-0cd8c3f2-3123-4820-878c-ee022bfe9019.png)
 
 Better impedence to have best VSWR
