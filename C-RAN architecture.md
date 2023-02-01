@@ -45,7 +45,15 @@ Unlicensed
 * 24 GHz
 * 60 - 80 GHz
 
+### PicoCell backhaul
+* 500 MBps
+* 60 GHz 
+* cell site spacing <1 km
+* Full GigR
 
+![image](https://user-images.githubusercontent.com/83261924/216187096-88db7969-3622-47da-9c58-bb5978913a34.png)
+
+* Multi
 
 ## fronthaul
 
